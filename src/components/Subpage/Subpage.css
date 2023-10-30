@@ -1,0 +1,17 @@
+.subpage {
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  align-items: center;
+}
+.subpage-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #585858;
+}

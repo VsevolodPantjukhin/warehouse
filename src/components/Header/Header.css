@@ -1,0 +1,69 @@
+.header {
+  height: 79px;
+  background: rgba(82, 171, 253, 0.02);
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+  transform: rotate(-0.02deg);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-total-amount {
+  margin-left: 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+}
+.header-total {
+  width: 68px;
+  height: 28px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.header-total-number-block {
+  width: 26px;
+  height: 18px;
+  background: rgba(82, 171, 253, 0.1);
+  border-radius: 4px;
+  transform: rotate(-0.02deg);
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #52abfd;
+}
+.header-total-number {
+  width: 26px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-search-input {
+  box-sizing: border-box;
+  width: 456px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.32);
+  border-radius: 8px;
+  margin-left: 54px;
+  padding: 15px;
+}
+.header-right-group {
+  margin-left: 250px;
+  display: flex;
+  flex-direction: row;
+}
+.header-notifications {
+  width: 48px;
+  height: 32px;
+}
+.header-bell-icon {
+  width: 48px;
+  height: 32px;
+}

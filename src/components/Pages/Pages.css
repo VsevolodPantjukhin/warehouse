@@ -1,0 +1,9 @@
+.pages {
+  margin-top: 10px;
+  width: 277px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  justify-content: center;
+}

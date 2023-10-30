@@ -1,0 +1,24 @@
+.side-menu {
+  width: 293px;
+  height: 100%;
+}
+.logo-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.main-title {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+
+  color: #585858;
+}
+.footer-span {
+  position: absolute;
+  bottom: 14px;
+}

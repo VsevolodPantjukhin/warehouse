@@ -1,0 +1,23 @@
+.page {
+  display: flex;
+  flex-direction: row;
+  margin-left: 7px;
+  align-items: center;
+  gap: 12px;
+}
+.page-title {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #585858;
+}
+.pages-rendered-subpages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 9px;
+}
